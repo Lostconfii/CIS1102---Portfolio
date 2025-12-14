@@ -1,0 +1,207 @@
+body{
+   background-color: whitesmoke;
+}
+.banner{
+    background-image: url(https://media.tenor.com/KMBaoslCDeoAAAAM/starry-night-sky-twinkling-stars.gif);
+    padding: 67px;
+    margin: 37px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.sub-background{
+    position: relative;
+    background-image: url(https://www.shutterstock.com/image-vector/luxury-black-wood-texture-rare-600nw-2582934593.jpg);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(0, 0, 0);
+    max-width: 1000px;
+    margin: 67px auto;
+    z-index: 1;
+}
+.sub-background2{
+    background-image: url(https://png.pngtree.com/background/20230513/original/pngtree-black-wooden-background-texture-in-dark-black-color-picture-image_2507292.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin-top: 67px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 230px;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    h2{
+        margin: 0 0 10px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .btn{
+    padding: 10px 18px;
+    background: rgb(58, 56, 56);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    transition: 0.5;
+
+        &:hover{
+            background: black;
+            transform: translateY(-1px);
+            cursor: pointer;
+        }
+    }
+}
+.sub-background3{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/046/008/106/small/colorful-abstract-brush-stroke-painting-hand-drawn-pattern-illustration-grunge-background-texture-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin: 67px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.sub-background4{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/018/916/084/non_2x/dark-wood-texture-with-knots-board-background-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin: 67px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.sub-background5{
+    background-image: url(https://img.freepik.com/premium-photo/scary-dark-walls-long-black-concrete-cement-texture-background_526818-3252.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+    margin: 67px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+h1{
+    color: #f9f9f9;
+    font-size: 67px;
+}
+p{
+    color: #f9f9f9;
+    font-size: 25px;
+}
+.profile-container{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-top: -200px;
+}
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content h2{
+    font-size: 31px;
+    color: black;
+}
+.popup-content{
+    background: whitesmoke;
+    padding: 20px;
+    width: 60%;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+.popup-content img{
+    object-fit: cover;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.popup-img-row{
+    display: flex;
+    gap: 15px;
+    margin-bottom: -10px;
+}
+.popup-img-row img{
+    width: 32%;
+    border-radius: 15px;
+}
+.popup-content p{
+    color: black;
+    font-size: 20px;
+}
+.close-btn{
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.about-section{
+padding: 100px 50px;
+margin-left: -8px;
+margin-right: -8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about-card{
+background: rgb(218, 218, 218);
+padding: 40px;
+border-radius: 15px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+max-width: 600px;
+width: 100%;
+}
+.about-card h2 {
+color: #000000;
+font-size: 37px;
+text-align: center;
+margin-bottom: 30px;
+font-weight: bold;
+padding-bottom: 10px;
+border-bottom: 4px solid #000000;
+display: inline-block;
+width: 100%;
+}
+.about-card p {
+color: #333;
+font-size: 18px;
+line-height: 1.8;
+margin-bottom: 20px;
+text-align: justify;
+}
